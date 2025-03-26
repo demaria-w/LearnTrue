@@ -10,3 +10,7 @@ This repository is made as a competition entry to the World Anti-Doping Agency (
 # Additional features regardless of age:
 - Athlete has to choose between different supplements & check against the Prohibited list, and choosing incorrectly may have negative effects on the athlete.  
 - Athlete experiences a random check by a Doping Control Officer. 
+
+# Copyright
+The idea is original, however the assets used to create this demonstration are open-sourced and can be found at the following websites:
+- (to be added)
