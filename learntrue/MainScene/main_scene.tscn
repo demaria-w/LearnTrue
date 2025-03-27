@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cv6kbb2o36sn3"]
+
+[ext_resource type="Texture2D" uid="uid://bl4h6lme0cvww" path="res://assetpack/backgrounds/background2.png" id="1_4wx23"]
+[ext_resource type="PackedScene" uid="uid://dbx41eib3etg1" path="res://MainScene/dialogue_balloon/balloon.tscn" id="2_uk5hl"]
+
+[node name="MainScene" type="Node2D"]
+metadata/_edit_vertical_guides_ = [-131.0]
+
+[node name="Background2" type="Sprite2D" parent="."]
+position = Vector2(575, 324)
+scale = Vector2(1.79375, 1.7875)
+texture = ExtResource("1_4wx23")
+
+[node name="ExampleBalloon" parent="." instance=ExtResource("2_uk5hl")]

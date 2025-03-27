@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=3 uid="uid://cv6kbb2o36sn3"]
+
+[ext_resource type="Texture2D" uid="uid://bl4h6lme0cvww" path="res://assetpack/backgrounds/background2.png" id="1_4wx23"]
+[ext_resource type="Texture2D" uid="uid://b1psxjloybwtl" path="res://assetpack/character overworld/ow9.png" id="2_l372o"]
+[ext_resource type="PackedScene" uid="uid://73jm5qjy52vq" path="res://MainScene/example_balloon.tscn" id="3_22pj5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gmhua"]
+atlas = ExtResource("2_l372o")
+region = Rect2(3.86106, 1.99355, 25.7154, 30.3233)
+
+[node name="MainScene" type="Node2D"]
+
+[node name="Background2" type="Sprite2D" parent="."]
+position = Vector2(575, 324)
+scale = Vector2(1.79375, 1.7875)
+texture = ExtResource("1_4wx23")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(351, 299)
+scale = Vector2(20, 20)
+texture = SubResource("AtlasTexture_gmhua")
+
+[node name="ExampleBalloon" parent="." instance=ExtResource("3_22pj5")]
