@@ -15,4 +15,8 @@ This repository is made as a competition entry to the World Anti-Doping Agency (
 The idea is original, however the assets used to create this demonstration are open-sourced and can be found at the following websites:
 - UI pack: https://cupnooble.itch.io/sprout-lands-asset-pack
 - Special pack: https://scarloxy.itch.io/mpwsp01
+- Characters:
+      - https://pixabay.com/photos/portrait-adult-people-woman-3076848/
+      - https://pixabay.com/photos/baby-girl-portrait-child-daughter-6578335/
+      - https://pixabay.com/photos/tennis-sports-girl-fitness-ball-15844/
   
